@@ -1,0 +1,14 @@
+.homeJumbotron {
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: transparent;
+}
+
+.highlight {
+  color: #e31e24;
+}
+
+.lead {
+  font-weight: 400;
+}
