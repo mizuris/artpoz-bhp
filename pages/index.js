@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className={styles.container}>
         <Head>
-          <title>Artpoż - BHP i ppoż.</title>
+          <title>Artpoż - hurtownia BHP i ppoż.</title>
           <meta name="description" content="Hurtownia artykułów BHP i ppoż." />
           <link rel="icon" href="/favicon.ico" />
           <link

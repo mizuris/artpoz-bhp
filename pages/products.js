@@ -1,11 +1,8 @@
 import Head from "next/head";
-import styles from "../styles/Products.module.css";
-
 import ProductsListDivider from "../components/ProductsListDivider/ProductsListDivider";
 import PersonalProtectionItems from "../components/ItemsCollection/PersonalProtectionItems";
 import FireFightingItems from "../components/ItemsCollection/FireFightingItems";
 import WorkwearItems from "../components/ItemsCollection/WorkwearItems";
-
 import firstSection from "../public/images/products-section-1.png";
 import secondSection from "../public/images/products-section-2.png";
 import thirdSection from "../public/images/products-section-3.png";
@@ -14,7 +11,7 @@ export default function Products() {
   return (
     <>
       <Head>
-        <title>Artpoż - oferta</title>
+        <title>Artpoż - hurtownia BHP i ppoż.</title>
         <meta name="description" content="Oferta artykułów BHP i ppoż." />
         <link rel="icon" href="/favicon.ico" />
         <link

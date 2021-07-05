@@ -4,9 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import styles from "../../styles/Footer.module.css";
 
 function Footer() {
-  const size = 32;
   return (
-    <footer className="text-center bg-light w-100">
+    <footer className={`${styles.appFooter} text-center bg-light w-100`}>
       <Container className="p-4">
         <Row>
           <Col>
@@ -21,32 +20,32 @@ function Footer() {
         <Row>
           <Col>
             <Image
-              width={size}
-              height={size}
+              width={32}
+              height={32}
               alt="#"
               src="/../public/icons/icon-extinguishe.png"
             />
           </Col>
           <Col>
             <Image
-              width={size}
-              height={size}
+              width={32}
+              height={32}
               alt="#"
               src="/../public/icons/icon-hat.png"
             />
           </Col>
           <Col>
             <Image
-              width={size}
-              height={size}
+              width={32}
+              height={32}
               alt="#"
               src="/../public/icons/icon-vest.png"
             />
           </Col>
           <Col>
             <Image
-              width={size}
-              height={size}
+              width={32}
+              height={32}
               alt="#"
               src="/../public/icons/icon-place.png"
             />
