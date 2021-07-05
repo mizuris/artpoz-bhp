@@ -1,0 +1,23 @@
+.contactHeader {
+    display: flex;
+    align-items: center;
+}
+
+.cardInfo p {
+    margin-left: 0.7em;
+}
+
+.cardImg {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.cardImg h5 {
+    margin-left: 10px;
+    padding: 0;
+}
+
+.cardTextBold {
+    font-weight: bold;
+}
