@@ -9,8 +9,8 @@ function Footer() {
       <Container className="p-4">
         <Row>
           <Col>
-            <h5 className="text-uppercase">Wszystko w jednym miejscu</h5>
-            <p>
+            <h5 className={styles.footerHeader}>Wszystko w jednym miejscu</h5>
+            <p className={styles.footerText}>
               Zaufaj wieloletniemu doświadczeniu i dołącz do szerokiego grona
               zadowolonych klientów. Dla Twojego{" "}
               <strong>dobra i bezpieczeństwa</strong>.
@@ -54,7 +54,7 @@ function Footer() {
       </Container>
 
       <div className={`${styles.footerCopyright} p-3 text-center`}>
-        <p className={styles.footerCopyrightText}>
+        <p className={styles.footerText}>
           &copy; 2021 Copyright: PHU Artpoż Arkadiusz Bątor | Wszystkie prawa
           zastrzeżone.
         </p>

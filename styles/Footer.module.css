@@ -1,8 +1,13 @@
-.footerCopyright {
-    background-color: #2B2A29;
-    color: #E8E8E8;
+.footerText {
+  font-size: 0.8em;
 }
 
-.footerCopyrightText {
-    font-size: 12px;
+.footerHeader {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.footerCopyright {
+  background-color: #2b2a29;
+  color: #e8e8e8;
 }
