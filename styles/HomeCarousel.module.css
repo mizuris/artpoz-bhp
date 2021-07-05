@@ -1,5 +1,9 @@
-.carouselImage {
-  display: block;
-  width: 100%;
-  height: auto;
+.carouselText {
+  font-size: 0.8em;
+}
+
+@media screen and (min-width: 767px) {
+  .carouselText {
+    font-size: 1.3em;
+  }
 }

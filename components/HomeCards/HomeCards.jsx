@@ -2,7 +2,7 @@ import React from "react";
 import SingleCard from "./SingleCard";
 import firefighter from "../../public/images/firefighter-pl.jpg";
 import workwear from "../../public/images/workwear-card-3.jpg";
-import cardImg from "../../public/images/card-3.jpg";
+import signs from "../../public/images/card-3.jpg";
 
 function HomeCards() {
   return (
@@ -29,7 +29,7 @@ function HomeCards() {
       </SingleCard>
 
       <SingleCard
-        imageSrc={cardImg}
+        imageSrc={signs}
         alt="Evacuation sings"
         title="Oznakowanie obiektów"
       >

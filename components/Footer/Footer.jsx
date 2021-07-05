@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "../../styles/Footer.module.css";
 
 function Footer() {
   const size = 32;
@@ -10,7 +11,7 @@ function Footer() {
         <Row>
           <Col>
             <h5 className="text-uppercase">Wszystko w jednym miejscu</h5>
-            <p className="pre-footer-text">
+            <p>
               Zaufaj wieloletniemu doświadczeniu i dołącz do szerokiego grona
               zadowolonych klientów. Dla Twojego{" "}
               <strong>dobra i bezpieczeństwa</strong>.
@@ -23,7 +24,6 @@ function Footer() {
               width={size}
               height={size}
               alt="#"
-              className="footer-icon"
               src="/../public/icons/icon-extinguishe.png"
             />
           </Col>
@@ -32,7 +32,6 @@ function Footer() {
               width={size}
               height={size}
               alt="#"
-              class="footer-icon"
               src="/../public/icons/icon-hat.png"
             />
           </Col>
@@ -41,7 +40,6 @@ function Footer() {
               width={size}
               height={size}
               alt="#"
-              className="footer-icon"
               src="/../public/icons/icon-vest.png"
             />
           </Col>
@@ -50,15 +48,14 @@ function Footer() {
               width={size}
               height={size}
               alt="#"
-              className="footer-icon"
               src="/../public/icons/icon-place.png"
             />
           </Col>
         </Row>
       </Container>
 
-      <div className="text-center p-3 art-black">
-        <p className="footer-text">
+      <div className={`${styles.footerCopyright} p-3 text-center`}>
+        <p className={styles.footerCopyrightText}>
           &copy; 2021 Copyright: PHU Artpoż Arkadiusz Bątor | Wszystkie prawa
           zastrzeżone.
         </p>

@@ -10,29 +10,23 @@ function HomeCarousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        <Image
-          className={styles.carouselImage}
-          src={extinguisher}
-          alt="Fire extinguishers"
-        />
+        <Image src={extinguisher} alt="Fire extinguishers" />
         <Carousel.Caption>
-          <h3>Ochrona przeciwpożarowa</h3>
+          <h3 className={styles.carouselText}>Ochrona przeciwpożarowa</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image
-          className={styles.carouselImage}
-          src={evacSigns}
-          alt="Evacutation signs"
-        />
+        <Image src={evacSigns} alt="Evacutation signs" />
         <Carousel.Caption>
-          <h3>Oznakowanie ewakuacyjne i przeciwpożarowe</h3>
+          <h3 className={styles.carouselText}>
+            Oznakowanie ewakuacyjne i przeciwpożarowe
+          </h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Image className={styles.carouselImage} src={workwear} alt="Workwear" />
         <Carousel.Caption>
-          <h3>Odzież robocza i ochronna</h3>
+          <h3 className={styles.carouselText}>Odzież robocza i ochronna</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

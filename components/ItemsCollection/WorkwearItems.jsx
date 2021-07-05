@@ -22,7 +22,7 @@ function WorkwearItems() {
   return (
     <Container>
       <Row>
-        <Col sm={6}>
+        <Col className="mb-3" sm={6}>
           <ProductsCard
             title="Ubrania robocze"
             image={workwearIcon}
@@ -30,7 +30,7 @@ function WorkwearItems() {
             products={workwearList}
           />
         </Col>
-        <Col sm={6}>
+        <Col className="mb-3" sm={6}>
           <ProductsCard
             title="Obuwie robocze"
             image={bootsIcon}

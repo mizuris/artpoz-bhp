@@ -39,7 +39,7 @@ function PersonalProtectionItems() {
   return (
     <Container>
       <Row>
-        <Col sm={12} md={4}>
+        <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Rękawice robocze"
             image={glovesIcon}
@@ -47,7 +47,7 @@ function PersonalProtectionItems() {
             products={glovesList}
           />
         </Col>
-        <Col sm={12} md={4}>
+        <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Ochrona głowy i dróg oddechowych"
             image={gasMaskIcon}
@@ -55,7 +55,7 @@ function PersonalProtectionItems() {
             products={headEquipementList}
           />
         </Col>
-        <Col sm={12} md={4}>
+        <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Sprzęt specjalistyczny"
             image={fireAxeIcon}

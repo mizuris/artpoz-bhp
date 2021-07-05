@@ -12,3 +12,9 @@
 .lead {
   font-weight: 400;
 }
+
+.homeButton {
+  margin-top: 1.3em;
+  background-color: #e31e24;
+  border: 0;
+}

@@ -39,7 +39,7 @@ function FireFightingItems() {
   return (
     <Container>
       <Row>
-        <Col sm={12} md={4}>
+        <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Gaśnice"
             image={fireExtinguisherIcon}
@@ -47,7 +47,7 @@ function FireFightingItems() {
             products={fireExtinguishersList}
           />
         </Col>
-        <Col sm={12} md={4}>
+        <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Hydranty"
             image={fireHoseIcon}
@@ -55,7 +55,7 @@ function FireFightingItems() {
             products={hydrantsList}
           />
         </Col>
-        <Col sm={12} md={4}>
+        <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Oznakowanie"
             image={evacSignIcon}

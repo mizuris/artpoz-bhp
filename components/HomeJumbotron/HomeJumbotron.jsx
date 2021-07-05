@@ -1,5 +1,6 @@
 import React from "react";
-import { Jumbotron } from "react-bootstrap";
+import Link from "next/link";
+import { Jumbotron, Button } from "react-bootstrap";
 import styles from "../../styles/HomeJumbotron.module.css";
 
 function HomeJumbotron() {
@@ -18,6 +19,9 @@ function HomeJumbotron() {
         przeciwpożarowych, szkolenia z zakresu ochorny przeciwpożarowej i wiele
         więcej. Zaufali nam <b>najlepsi</b>, zaufaj i <b>Ty</b>!
       </p>
+      <Link href="/contact" passHref>
+        <Button className={styles.homeButton}>Skontaktuj się</Button>
+      </Link>
     </Jumbotron>
   );
 }
