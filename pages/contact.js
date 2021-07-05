@@ -17,11 +17,16 @@ export default function Contact() {
   const iconSize = 24;
 
   return (
-    <div>
+    <>
       <Head>
-        <title>Artpoż - hurtownia BHP i ppoż.</title>
+        <title>Artpoż - hurtownia BHP i ppoż. - kontakt</title>
         <meta name="description" content="Artykuły bhp i ppoż - kontakt" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="keywords"
+          content="bhp, ppoż, żnin, odzież robocza, gaśnice, hydranty, przeglądy"
+        />
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
@@ -141,6 +146,6 @@ export default function Contact() {
           </Col>
         </Row>
       </Container>
-    </div>
+    </>
   );
 }

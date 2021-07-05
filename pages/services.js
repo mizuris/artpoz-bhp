@@ -9,10 +9,15 @@ import ServicesCard from "../components/ServicesCard/ServicesCard";
 
 export default function Services() {
   return (
-    <div>
+    <>
       <Head>
-        <title>Artpoż - hurtownia BHP i ppoż.</title>
+        <title>Artpoż - hurtownia BHP i ppoż. - usługi</title>
         <meta name="description" content="Usługi przeciwpożarowe i bhp" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="keywords"
+          content="bhp, ppoż, żnin, odzież robocza, gaśnice, hydranty, przeglądy"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
@@ -107,6 +112,6 @@ export default function Services() {
           </Row>
         </Container>
       </Container>
-    </div>
+    </>
   );
 }

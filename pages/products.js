@@ -11,8 +11,13 @@ export default function Products() {
   return (
     <>
       <Head>
-        <title>Artpoż - hurtownia BHP i ppoż.</title>
+        <title>Artpoż - hurtownia BHP i ppoż. - oferta</title>
         <meta name="description" content="Oferta artykułów BHP i ppoż." />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="keywords"
+          content="bhp, ppoż, żnin, odzież robocza, gaśnice, hydranty, przeglądy"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
