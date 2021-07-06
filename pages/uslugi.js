@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
@@ -24,11 +25,10 @@ export default function Uslugi() {
         />
       </Head>
       <Container fluid>
-        <Image
-          src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551048/services-top_tzmg7p.png"
+        <img
+          src="/images/services-top.png"
           layout="responsive"
-          height={250}
-          width={1980}
+          style={{ maxWidth: "100%" }}
           alt="Fire services consulting"
         />
       </Container>
@@ -43,7 +43,7 @@ export default function Uslugi() {
           <Row>
             <Col md={6} className="pb-4">
               <ServicesCard
-                src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-flame_hnwnh8.png"
+                src="/images/icon-flame.png"
                 title="Ochrona przeciwpożarowa"
               >
                 <Container>
@@ -87,7 +87,7 @@ export default function Uslugi() {
             </Col>
             <Col md={6} className="pb-4">
               <ServicesCard
-                src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-service_vptx8v.png"
+                src="/images/icon-service.png"
                 title="Serwis i konserwacja"
               >
                 <Container>

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 import { Card } from "react-bootstrap";
@@ -8,7 +9,7 @@ function ServicesCard(props) {
     <Card className={styles.servicesCard}>
       <Card.Body>
         <Card.Title className={styles.servicesHeader}>
-          <Image src={props.src} width={32} height={32} alt="Services icon" />{" "}
+          <img src={props.src} width={32} height={32} alt="Services icon" />{" "}
           <span>{props.title}</span>
         </Card.Title>
         <hr />

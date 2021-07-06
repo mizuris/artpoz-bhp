@@ -39,7 +39,7 @@ function PersonalProtectionItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Rękawice robocze"
-            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-gloves_iyp2q6.png"
+            image="/images/icon-gloves.png"
             alt="Icon of work gloves"
             products={glovesList}
           />
@@ -47,7 +47,7 @@ function PersonalProtectionItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Ochrona głowy i dróg oddechowych"
-            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-gas-mask_qss4mv.png"
+            image="/images/icon-gas-mask.png"
             alt="Gas mask icon"
             products={headEquipementList}
           />
@@ -55,7 +55,7 @@ function PersonalProtectionItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Sprzęt specjalistyczny"
-            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551066/icon-axe_libsbz.png"
+            image="/images/icon-axe.png"
             alt="Fire axe icon"
             products={fireEquipementList}
           />

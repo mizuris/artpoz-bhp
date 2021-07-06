@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,11 +9,10 @@ function Header() {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <Image
+          <img
             height={60}
             width={108}
-            src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551066/artpoz-logo_m9vjnd.png"
-            layout="responsive"
+            src="/images/artpoz-logo.png"
             alt="Artpoż BHP i ppoż logo"
           />
         </Navbar.Brand>

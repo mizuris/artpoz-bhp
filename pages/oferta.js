@@ -25,21 +25,21 @@ export default function Oferta() {
       </Head>
 
       <ProductsListDivider
-        image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551045/products-section-1_pjfalr.png"
+        image="/images/products-section-1.png"
         alt="Work gloves photo"
         text="środki ochrony indywidualnej"
       />
       <PersonalProtectionItems />
 
       <ProductsListDivider
-        image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551043/products-section-2_o7wjtp.png"
+        image="/images/products-section-2.png"
         alt="Firefighters with firehose"
         text="sprzęt przeciwpożarowy"
       />
       <FireFightingItems />
 
       <ProductsListDivider
-        image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551049/products-section-3_qajc75.png"
+        image="/images/products-section-3.png"
         alt="Man wearing workwear"
         text="odzież robocza"
       />

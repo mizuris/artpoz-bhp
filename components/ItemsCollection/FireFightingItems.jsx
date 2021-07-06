@@ -39,7 +39,7 @@ function FireFightingItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Gaśnice"
-            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-extinguishe_ibynej.png"
+            image="/images/icon-extinguishe.png"
             alt="Fire extinguisher icon"
             products={fireExtinguishersList}
           />
@@ -47,7 +47,7 @@ function FireFightingItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Hydranty"
-            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-hose_x6quay.png"
+            image="/images/icon-hose.png"
             alt="Fire hose icon"
             products={hydrantsList}
           />
@@ -55,7 +55,7 @@ function FireFightingItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Oznakowanie"
-            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-sign_c0cjyc.png"
+            image="/images/icon-sign.png"
             alt="Evacutaion sign icon"
             products={signsList}
           />

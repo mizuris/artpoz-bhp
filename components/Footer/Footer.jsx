@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
@@ -19,35 +20,35 @@ function Footer() {
         </Row>
         <Row>
           <Col>
-            <Image
+            <img
               width={32}
               height={32}
-              alt="#"
-              src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-extinguishe_ibynej.png"
+              alt="fire extinguisher"
+              src="/images/icon-extinguishe.png"
             />
           </Col>
           <Col>
-            <Image
+            <img
               width={32}
               height={32}
-              alt="#"
-              src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-hat_knzge1.png"
+              alt="hard hat"
+              src="/images/icon-hat.png"
             />
           </Col>
           <Col>
-            <Image
+            <img
               width={32}
               height={32}
-              alt="#"
-              src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-vest_ntpz87.png"
+              alt="reflective vest"
+              src="/images/icon-vest.png"
             />
           </Col>
           <Col>
-            <Image
+            <img
               width={32}
               height={32}
-              alt="#"
-              src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-place_nose1m.png"
+              alt="ecavuation sign"
+              src="/images/icon-place.png"
             />
           </Col>
         </Row>

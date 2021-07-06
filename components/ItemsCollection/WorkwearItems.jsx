@@ -23,7 +23,7 @@ function WorkwearItems() {
         <Col className="mb-3" sm={6}>
           <ProductsCard
             title="Ubrania robocze"
-            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-jacket_yqql65.png"
+            image="/images/icon-jacket.png"
             alt="Workwear icon"
             products={workwearList}
           />
@@ -31,7 +31,7 @@ function WorkwearItems() {
         <Col className="mb-3" sm={6}>
           <ProductsCard
             title="Obuwie robocze"
-            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551066/icon-boots_c6imss.png"
+            image="/images/icon-boots.png"
             alt="Work boots icon"
             products={workBootsList}
           />

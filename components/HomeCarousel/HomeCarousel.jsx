@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 import { Carousel } from "react-bootstrap";
@@ -7,11 +8,9 @@ function HomeCarousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        <Image
-          width={1200}
-          height={465}
-          layout="responsive"
-          src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551043/exthinguisher_y6dcq9.jpg"
+        <img
+          style={{ maxHeight: 450, width: "100%" }}
+          src="/images/exthinguisher.jpg"
           alt="Fire extinguishers"
         />
         <Carousel.Caption>
@@ -19,11 +18,9 @@ function HomeCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image
-          width={1200}
-          height={465}
-          layout="responsive"
-          src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551043/evac_mufuld.jpg"
+        <img
+          style={{ maxHeight: 450, width: "100%" }}
+          src="/images/evac.jpg"
           alt="Evacutation signs"
         />
         <Carousel.Caption>
@@ -33,11 +30,9 @@ function HomeCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image
-          width={1200}
-          height={465}
-          layout="responsive"
-          src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551046/workwear-carousell_ahcmbn.jpg"
+        <img
+          style={{ maxHeight: 450, width: "100%" }}
+          src="/images/workwear-carousell.jpg"
           alt="Workwear"
         />
         <Carousel.Caption>

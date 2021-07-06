@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 import Head from "next/head";
@@ -35,11 +36,11 @@ export default function Kontakt() {
             <Card className="shadow-lg">
               <Card.Body>
                 <div className={styles.contactHeader}>
-                  <Image
+                  <img
                     width={64}
                     height={64}
                     alt="Artpoż logo icon"
-                    src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551066/artpoz-icon_hiphqp.png"
+                    src="/images/artpoz-icon.png"
                   />
                   <h5 className="text-uppercase m-0 p-0 ml-2">
                     Skontaktuj się z nami
@@ -48,8 +49,8 @@ export default function Kontakt() {
                 <hr />
                 <div className={styles.cardInfo}>
                   <div className={styles.cardImg}>
-                    <Image
-                      src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-person_qp2euf.png"
+                    <img
+                      src="/images/icon-person.png"
                       alt="Person contact icon"
                       width={iconSize}
                       height={iconSize}
@@ -67,8 +68,8 @@ export default function Kontakt() {
                 <hr />
                 <div className={styles.cardInfo}>
                   <div className={styles.cardImg}>
-                    <Image
-                      src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-location_vcpufj.png"
+                    <img
+                      src="/images/icon-location.png"
                       alt="Adress location icon"
                       width={iconSize}
                       height={iconSize}
@@ -83,8 +84,8 @@ export default function Kontakt() {
                 <hr />
                 <div className={styles.cardInfo}>
                   <div className={styles.cardImg}>
-                    <Image
-                      src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-tel_dgkcpl.png"
+                    <img
+                      src="/images/icon-tel.png"
                       alt="Contact phone icon"
                       width={iconSize}
                       height={iconSize}
@@ -101,8 +102,8 @@ export default function Kontakt() {
                 <hr />
                 <div className={styles.cardInfo}>
                   <div className={styles.cardImg}>
-                    <Image
-                      src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-mail_h0rokl.png"
+                    <img
+                      src="/images/icon-mail.png"
                       alt="E-mail icon"
                       width={iconSize}
                       height={iconSize}
@@ -118,8 +119,8 @@ export default function Kontakt() {
           <Col lg={7}>
             <div className="mb-4">
               <div className={styles.cardImg}>
-                <Image
-                  src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-map_fs3lie.png"
+                <img
+                  src="/images/icon-map.png"
                   alt="Google maps icon"
                   width={48}
                   height={48}

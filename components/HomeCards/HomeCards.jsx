@@ -6,7 +6,7 @@ function HomeCards() {
   return (
     <>
       <SingleCard
-        imageSrc="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551044/firefighter-pl_lwdyu0.jpg"
+        imageSrc="/images/firefighter-pl.jpg"
         alt="Firefighter"
         title="Ochrona przeciwpożarowa"
       >
@@ -17,9 +17,8 @@ function HomeCards() {
           <strong>Instrukcji Bezpieczeństwa Pożarowego</strong>.
         </p>
       </SingleCard>
-
       <SingleCard
-        imageSrc="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551049/workwear-card-3_sdlvnj.jpg"
+        imageSrc="/images/workwear-card-3.jpg"
         alt="Firefighter"
         title="Odzież robocza i ochronna"
       >
@@ -28,10 +27,9 @@ function HomeCards() {
           europejskich producentów. Nasza oferta zaspokaja potrzeby najbardziej
           wymagających klientów z różnych branż.
         </p>
-      </SingleCard>
-
+      </SingleCard>{" "}
       <SingleCard
-        imageSrc="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551046/card-3_qbxvxb.jpg"
+        imageSrc="/images/card-3.jpg"
         alt="Evacuation sings"
         title="Oznakowanie obiektów"
       >

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { Card } from "react-bootstrap";
 import Image from "next/image";
@@ -7,7 +8,7 @@ function ProductHeader({ image, alt, title }) {
   return (
     <>
       <div className={styles.flexContainer}>
-        <Image
+        <img
           height={32}
           width={32}
           layout="responsive"
