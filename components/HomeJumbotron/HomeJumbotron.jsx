@@ -19,7 +19,7 @@ function HomeJumbotron() {
         przeciwpożarowych, szkolenia z zakresu ochorny przeciwpożarowej i wiele
         więcej. Zaufali nam <b>najlepsi</b>, zaufaj i <b>Ty</b>!
       </p>
-      <Link href="/contact" passHref>
+      <Link href="/kontakt" passHref>
         <Button className={styles.homeButton}>Skontaktuj się</Button>
       </Link>
     </Jumbotron>
