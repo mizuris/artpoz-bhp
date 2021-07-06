@@ -2,17 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Head from "next/head";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import personIcon from "../public/icons/icon-person.png";
-import locationIcon from "../public/icons/icon-location.png";
-import phoneIcon from "../public/icons/icon-tel.png";
-import mailIcon from "../public/icons/icon-mail.png";
-import mapIcon from "../public/icons/icon-map.png";
-import logoIcon from "../public/icons/artpoz-icon.png";
 import { WrappedMap } from "../components/Map/Map";
 import mapStyles from "../styles/Map.module.css";
 import styles from "../styles/Contact.module.css";
 
-export default function Contact() {
+export default function Kontakt() {
   const defaultMapElement = <div style={{ height: "100%" }} />;
   const iconSize = 24;
 
@@ -45,7 +39,7 @@ export default function Contact() {
                     width={64}
                     height={64}
                     alt="Artpoż logo icon"
-                    src={logoIcon}
+                    src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551066/artpoz-icon_hiphqp.png"
                   />
                   <h5 className="text-uppercase m-0 p-0 ml-2">
                     Skontaktuj się z nami
@@ -55,7 +49,7 @@ export default function Contact() {
                 <div className={styles.cardInfo}>
                   <div className={styles.cardImg}>
                     <Image
-                      src={personIcon}
+                      src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-person_qp2euf.png"
                       alt="Person contact icon"
                       width={iconSize}
                       height={iconSize}
@@ -74,7 +68,7 @@ export default function Contact() {
                 <div className={styles.cardInfo}>
                   <div className={styles.cardImg}>
                     <Image
-                      src={locationIcon}
+                      src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-location_vcpufj.png"
                       alt="Adress location icon"
                       width={iconSize}
                       height={iconSize}
@@ -90,7 +84,7 @@ export default function Contact() {
                 <div className={styles.cardInfo}>
                   <div className={styles.cardImg}>
                     <Image
-                      src={phoneIcon}
+                      src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-tel_dgkcpl.png"
                       alt="Contact phone icon"
                       width={iconSize}
                       height={iconSize}
@@ -108,7 +102,7 @@ export default function Contact() {
                 <div className={styles.cardInfo}>
                   <div className={styles.cardImg}>
                     <Image
-                      src={mailIcon}
+                      src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-mail_h0rokl.png"
                       alt="E-mail icon"
                       width={iconSize}
                       height={iconSize}
@@ -125,7 +119,7 @@ export default function Contact() {
             <div className="mb-4">
               <div className={styles.cardImg}>
                 <Image
-                  src={mapIcon}
+                  src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-map_fs3lie.png"
                   alt="Google maps icon"
                   width={48}
                   height={48}

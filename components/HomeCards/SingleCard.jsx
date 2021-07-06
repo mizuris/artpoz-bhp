@@ -6,7 +6,13 @@ function SingleCard(props) {
   return (
     <Col md={12} lg={4} className="pb-4 d-flex">
       <Card className="shadow">
-        <Image src={props.imageSrc} alt={props.alt} />
+        <Image
+          layout="responsive"
+          height={235}
+          width={360}
+          src={props.imageSrc}
+          alt={props.alt}
+        />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.children}</Card.Text>

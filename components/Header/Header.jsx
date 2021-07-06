@@ -2,14 +2,19 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Nav, Navbar, Container } from "react-bootstrap";
-import logo from "../../public/icons/artpoz-logo.png";
 
 function Header() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <Image height={60} width={108} src={logo} alt="Artpoż bhp logo" />
+          <Image
+            height={60}
+            width={108}
+            src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551066/artpoz-logo_m9vjnd.png"
+            layout="responsive"
+            alt="Artpoż BHP i ppoż logo"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
@@ -17,13 +22,13 @@ function Header() {
             <Link href="/" passHref>
               <Nav.Link>Strona główna</Nav.Link>
             </Link>
-            <Link href="/products" passHref>
+            <Link href="/oferta" passHref>
               <Nav.Link>Oferta</Nav.Link>
             </Link>
-            <Link href="/services" passHref>
+            <Link href="/uslugi" passHref>
               <Nav.Link>Usługi</Nav.Link>
             </Link>
-            <Link href="/contact" passHref>
+            <Link href="/kontakt" passHref>
               <Nav.Link>Kontakt</Nav.Link>
             </Link>
           </Nav>

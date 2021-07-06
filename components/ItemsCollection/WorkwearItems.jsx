@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProductsCard from "../ProductsCards/ProductsCard";
-import workwearIcon from "../../public/icons/icon-jacket.png";
-import bootsIcon from "../../public/icons/icon-boots.png";
 
 function WorkwearItems() {
   const workwearList = [
@@ -25,7 +23,7 @@ function WorkwearItems() {
         <Col className="mb-3" sm={6}>
           <ProductsCard
             title="Ubrania robocze"
-            image={workwearIcon}
+            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-jacket_yqql65.png"
             alt="Workwear icon"
             products={workwearList}
           />
@@ -33,7 +31,7 @@ function WorkwearItems() {
         <Col className="mb-3" sm={6}>
           <ProductsCard
             title="Obuwie robocze"
-            image={bootsIcon}
+            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551066/icon-boots_c6imss.png"
             alt="Work boots icon"
             products={workBootsList}
           />

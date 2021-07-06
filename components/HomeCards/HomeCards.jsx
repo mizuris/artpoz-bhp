@@ -1,15 +1,12 @@
 import React from "react";
 import SingleCard from "./SingleCard";
-import firefighter from "../../public/images/firefighter-pl.jpg";
-import workwear from "../../public/images/workwear-card-3.jpg";
-import signs from "../../public/images/card-3.jpg";
 import styles from "../../styles/Home.module.css";
 
 function HomeCards() {
   return (
     <>
       <SingleCard
-        imageSrc={firefighter}
+        imageSrc="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551044/firefighter-pl_lwdyu0.jpg"
         alt="Firefighter"
         title="Ochrona przeciwpożarowa"
       >
@@ -22,7 +19,7 @@ function HomeCards() {
       </SingleCard>
 
       <SingleCard
-        imageSrc={workwear}
+        imageSrc="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551049/workwear-card-3_sdlvnj.jpg"
         alt="Firefighter"
         title="Odzież robocza i ochronna"
       >
@@ -34,7 +31,7 @@ function HomeCards() {
       </SingleCard>
 
       <SingleCard
-        imageSrc={signs}
+        imageSrc="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551046/card-3_qbxvxb.jpg"
         alt="Evacuation sings"
         title="Oznakowanie obiektów"
       >

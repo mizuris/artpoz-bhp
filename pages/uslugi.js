@@ -2,12 +2,9 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
-import topImage from "../public/images/services-top.png";
-import fireIcon from "../public/icons/icon-flame.png";
-import serviceIcon from "../public/icons/icon-service.png";
 import ServicesCard from "../components/ServicesCard/ServicesCard";
 
-export default function Services() {
+export default function Uslugi() {
   return (
     <>
       <Head>
@@ -27,7 +24,13 @@ export default function Services() {
         />
       </Head>
       <Container fluid>
-        <Image src={topImage} alt="Fire services consulting" />
+        <Image
+          src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551048/services-top_tzmg7p.png"
+          layout="responsive"
+          height={250}
+          width={1980}
+          alt="Fire services consulting"
+        />
       </Container>
       <Container fluid>
         <Container className="ml-auto mr-auto">
@@ -39,7 +42,10 @@ export default function Services() {
           </Row>
           <Row>
             <Col md={6} className="pb-4">
-              <ServicesCard src={fireIcon} title="Ochrona przeciwpożarowa">
+              <ServicesCard
+                src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-flame_hnwnh8.png"
+                title="Ochrona przeciwpożarowa"
+              >
                 <Container>
                   <div className="list-container">
                     <ul className="list-main">
@@ -80,7 +86,10 @@ export default function Services() {
               </ServicesCard>
             </Col>
             <Col md={6} className="pb-4">
-              <ServicesCard src={serviceIcon} title="Serwis i konserwacja">
+              <ServicesCard
+                src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-service_vptx8v.png"
+                title="Serwis i konserwacja"
+              >
                 <Container>
                   <div className="list-container">
                     <ul className="list-main">

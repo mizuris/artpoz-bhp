@@ -23,7 +23,7 @@ function Footer() {
               width={32}
               height={32}
               alt="#"
-              src="/../public/icons/icon-extinguishe.png"
+              src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-extinguishe_ibynej.png"
             />
           </Col>
           <Col>
@@ -31,7 +31,7 @@ function Footer() {
               width={32}
               height={32}
               alt="#"
-              src="/../public/icons/icon-hat.png"
+              src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-hat_knzge1.png"
             />
           </Col>
           <Col>
@@ -39,7 +39,7 @@ function Footer() {
               width={32}
               height={32}
               alt="#"
-              src="/../public/icons/icon-vest.png"
+              src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-vest_ntpz87.png"
             />
           </Col>
           <Col>
@@ -47,7 +47,7 @@ function Footer() {
               width={32}
               height={32}
               alt="#"
-              src="/../public/icons/icon-place.png"
+              src="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-place_nose1m.png"
             />
           </Col>
         </Row>

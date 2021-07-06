@@ -1,9 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProductsCard from "../ProductsCards/ProductsCard";
-import fireExtinguisherIcon from "../../public/icons/icon-extinguishe.png";
-import fireHoseIcon from "../../public/icons/icon-hose.png";
-import evacSignIcon from "../../public/icons/icon-sign.png";
 
 function FireFightingItems() {
   const fireExtinguishersList = [
@@ -42,7 +39,7 @@ function FireFightingItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Gaśnice"
-            image={fireExtinguisherIcon}
+            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-extinguishe_ibynej.png"
             alt="Fire extinguisher icon"
             products={fireExtinguishersList}
           />
@@ -50,7 +47,7 @@ function FireFightingItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Hydranty"
-            image={fireHoseIcon}
+            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-hose_x6quay.png"
             alt="Fire hose icon"
             products={hydrantsList}
           />
@@ -58,7 +55,7 @@ function FireFightingItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Oznakowanie"
-            image={evacSignIcon}
+            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551068/icon-sign_c0cjyc.png"
             alt="Evacutaion sign icon"
             products={signsList}
           />

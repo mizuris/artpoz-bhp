@@ -1,9 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProductsCard from "../ProductsCards/ProductsCard";
-import glovesIcon from "../../public/icons/icon-gloves.png";
-import gasMaskIcon from "../../public/icons/icon-gas-mask.png";
-import fireAxeIcon from "../../public/icons/icon-axe.png";
 
 function PersonalProtectionItems() {
   const glovesList = [
@@ -42,7 +39,7 @@ function PersonalProtectionItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Rękawice robocze"
-            image={glovesIcon}
+            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-gloves_iyp2q6.png"
             alt="Icon of work gloves"
             products={glovesList}
           />
@@ -50,7 +47,7 @@ function PersonalProtectionItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Ochrona głowy i dróg oddechowych"
-            image={gasMaskIcon}
+            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551067/icon-gas-mask_qss4mv.png"
             alt="Gas mask icon"
             products={headEquipementList}
           />
@@ -58,7 +55,7 @@ function PersonalProtectionItems() {
         <Col className="mb-3" sm={12} md={4}>
           <ProductsCard
             title="Sprzęt specjalistyczny"
-            image={fireAxeIcon}
+            image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551066/icon-axe_libsbz.png"
             alt="Fire axe icon"
             products={fireEquipementList}
           />

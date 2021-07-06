@@ -7,7 +7,13 @@ function ProductHeader({ image, alt, title }) {
   return (
     <>
       <div className={styles.flexContainer}>
-        <Image height={32} width={32} src={image} alt={alt} />
+        <Image
+          height={32}
+          width={32}
+          layout="responsive"
+          src={image}
+          alt={alt}
+        />
         <Card.Title className="ml-2">{title}</Card.Title>
       </div>
       <hr />

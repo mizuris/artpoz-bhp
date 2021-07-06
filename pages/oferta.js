@@ -3,11 +3,8 @@ import ProductsListDivider from "../components/ProductsListDivider/ProductsListD
 import PersonalProtectionItems from "../components/ItemsCollection/PersonalProtectionItems";
 import FireFightingItems from "../components/ItemsCollection/FireFightingItems";
 import WorkwearItems from "../components/ItemsCollection/WorkwearItems";
-import firstSection from "../public/images/products-section-1.png";
-import secondSection from "../public/images/products-section-2.png";
-import thirdSection from "../public/images/products-section-3.png";
 
-export default function Products() {
+export default function Oferta() {
   return (
     <>
       <Head>
@@ -28,21 +25,21 @@ export default function Products() {
       </Head>
 
       <ProductsListDivider
-        image={firstSection}
+        image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551045/products-section-1_pjfalr.png"
         alt="Work gloves photo"
         text="środki ochrony indywidualnej"
       />
       <PersonalProtectionItems />
 
       <ProductsListDivider
-        image={secondSection}
+        image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551043/products-section-2_o7wjtp.png"
         alt="Firefighters with firehose"
         text="sprzęt przeciwpożarowy"
       />
       <FireFightingItems />
 
       <ProductsListDivider
-        image={thirdSection}
+        image="https://res.cloudinary.com/dlenvpgcq/image/upload/v1625551049/products-section-3_qajc75.png"
         alt="Man wearing workwear"
         text="odzież robocza"
       />
