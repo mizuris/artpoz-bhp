@@ -17,3 +17,10 @@
   border-radius: 5px;
   background-color: #fecc00;
 }
+
+.productDividerImg {
+  height: 150px;
+  max-height: 250px;
+  max-width: 100%;
+  object-fit: cover;
+}

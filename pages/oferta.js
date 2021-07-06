@@ -1,3 +1,4 @@
+import React from "react";
 import Head from "next/head";
 import ProductsListDivider from "../components/ProductsListDivider/ProductsListDivider";
 import PersonalProtectionItems from "../components/ItemsCollection/PersonalProtectionItems";

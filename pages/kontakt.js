@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
 import Head from "next/head";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { WrappedMap } from "../components/Map/Map";

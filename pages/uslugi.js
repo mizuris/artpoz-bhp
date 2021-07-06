@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Head from "next/head";
-import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "../styles/Services.module.css";
 import ServicesCard from "../components/ServicesCard/ServicesCard";
 
 export default function Uslugi() {
@@ -26,6 +26,7 @@ export default function Uslugi() {
       </Head>
       <Container fluid>
         <img
+          className={styles.servicesTopImg}
           src="/images/services-top.png"
           layout="responsive"
           style={{ maxWidth: "100%" }}

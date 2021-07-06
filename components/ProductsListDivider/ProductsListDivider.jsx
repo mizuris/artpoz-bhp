@@ -1,14 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
 import { Container } from "react-bootstrap";
+import styles from "../../styles/Products.module.css";
 
 function ProductsListDivider(props) {
   return (
     <Container fluid className="mb-2">
       <img
-        layout="responsive"
-        style={{ maxWidth: "100%" }}
+        className={styles.productDividerImg}
         src={props.image}
         alt={props.alt}
       />

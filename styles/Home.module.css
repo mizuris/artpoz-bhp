@@ -1,3 +1,8 @@
 .homeCardText {
   font-size: 0.9em;
 }
+
+.homeCardImg {
+  max-height: 300px;
+  width: auto;
+}

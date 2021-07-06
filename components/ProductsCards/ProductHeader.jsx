@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { Card } from "react-bootstrap";
-import Image from "next/image";
 import styles from "../../styles/Products.module.css";
 
 function ProductHeader({ image, alt, title }) {

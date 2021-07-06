@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "../../styles/Footer.module.css";
 
