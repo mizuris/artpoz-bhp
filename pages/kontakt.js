@@ -2,7 +2,7 @@
 import React from "react";
 import Head from "next/head";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { WrappedMap } from "../components/Map/Map";
+import { WrappedMap } from "../components/Map";
 import mapStyles from "../styles/Map.module.css";
 import styles from "../styles/Contact.module.css";
 

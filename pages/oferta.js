@@ -1,50 +1,102 @@
 import React from "react";
 import Head from "next/head";
-import ProductsListDivider from "../components/ProductsListDivider/ProductsListDivider";
-import PersonalProtectionItems from "../components/ItemsCollection/PersonalProtectionItems";
-import FireFightingItems from "../components/ItemsCollection/FireFightingItems";
-import WorkwearItems from "../components/ItemsCollection/WorkwearItems";
+import { Row, Col } from "react-bootstrap";
+import TopImage from "../components/TopImage";
+import ProductCard from "../components/ProductCard";
 
 export default function Oferta() {
   return (
     <>
       <Head>
-        <title>Artpoż - hurtownia BHP i ppoż. - oferta</title>
-        <meta name="description" content="Oferta artykułów BHP i ppoż." />
-        <meta name="robots" content="index, follow" />
-        <meta
-          name="keywords"
-          content="bhp, ppoż, żnin, odzież robocza, gaśnice, hydranty, przeglądy"
-        />
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-          crossOrigin="anonymous"
-        />
+        <title>Oferta / Artpoż - hurtownia BHP i ppoż.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-
-      <ProductsListDivider
-        image="/images/products-section-1.png"
-        alt="Work gloves photo"
-        text="środki ochrony indywidualnej"
+      <TopImage
+        src="/images/workwear-product.png"
+        alt="Hard hat and work gloves"
+        title="Odzież robocza"
       />
-      <PersonalProtectionItems />
-
-      <ProductsListDivider
-        image="/images/products-section-2.png"
-        alt="Firefighters with firehose"
-        text="sprzęt przeciwpożarowy"
+      <Row>
+        <Col sm={6} lg={3}>
+          <ProductCard
+            src="/images/workgloves-product.png"
+            alt="Worker with work gloves"
+            product="Rękawice robocze"
+          >
+            Rękawice gumowe / skórzane / specjalistyczne
+          </ProductCard>
+        </Col>
+        <Col sm={6} lg={3}>
+          <ProductCard
+            src="/images/head-protection-product.jpg"
+            alt="Worker in hard hat and face mask"
+            product="Ochrona głowy"
+          >
+            Rękawice gumowe / skórzane / specjalistyczne
+          </ProductCard>
+        </Col>
+        <Col sm={6} lg={3}>
+          <ProductCard
+            src="/images/workwear-product2.png"
+            alt="Worker with work gloves"
+            product="Odzież ochronna"
+          >
+            Rękawice gumowe / skórzane / specjalistyczne
+          </ProductCard>
+        </Col>
+        <Col sm={6} lg={3}>
+          <ProductCard
+            src="/images/firefighter-suit-product.jpg"
+            alt="Odzież specjalistyczna"
+            product="Firefighter"
+          >
+            Rękawice gumowe / skórzane / specjalistyczne
+          </ProductCard>
+        </Col>
+      </Row>
+      <TopImage
+        src="/images/workwear-product.png"
+        alt="Hard hat and work gloves"
+        title="Odzież robocza"
       />
-      <FireFightingItems />
-
-      <ProductsListDivider
-        image="/images/products-section-3.png"
-        alt="Man wearing workwear"
-        text="odzież robocza"
-      />
-      <WorkwearItems />
+      <Row>
+        <Col sm={6} lg={3}>
+          <ProductCard
+            src="/images/workgloves-product.png"
+            alt="Worker with work gloves"
+            product="Rękawice robocze"
+          >
+            Rękawice gumowe / skórzane / specjalistyczne
+          </ProductCard>
+        </Col>
+        <Col sm={6} lg={3}>
+          <ProductCard
+            src="/images/head-protection-product.jpg"
+            alt="Worker in hard hat and face mask"
+            product="Ochrona głowy"
+          >
+            Rękawice gumowe / skórzane / specjalistyczne
+          </ProductCard>
+        </Col>
+        <Col sm={6} lg={3}>
+          <ProductCard
+            src="/images/workwear-product2.png"
+            alt="Worker with work gloves"
+            product="Odzież ochronna"
+          >
+            Rękawice gumowe / skórzane / specjalistyczne
+          </ProductCard>
+        </Col>
+        <Col sm={6} lg={3}>
+          <ProductCard
+            src="/images/firefighter-suit-product.jpg"
+            alt="Odzież specjalistyczna"
+            product="Firefighter"
+          >
+            Rękawice gumowe / skórzane / specjalistyczne
+          </ProductCard>
+        </Col>
+      </Row>
     </>
   );
 }

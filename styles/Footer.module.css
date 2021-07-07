@@ -5,9 +5,28 @@
 .footerHeader {
   font-size: 1em;
   text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
 }
 
 .footerCopyright {
   background-color: #2b2a29;
-  color: #e8e8e8;
+  color: #e9ecef;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 0.6rem;
+}
+
+.footerCopyright p {
+  margin-bottom: 0;
+}
+
+.footerIcons {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footerIcon {
+  height: 24px;
+  width: 24px;
 }
