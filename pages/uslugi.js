@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Head from "next/head";
-import { Container, Row, Col } from "react-bootstrap";
+import Link from "next/link";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import styles from "../styles/Services.module.css";
-import ServicesCard from "../components/ServicesCard/ServicesCard";
+import ServicesCard from "../components/ServicesCard";
+import TopImage from "../components/TopImage";
 
 export default function Uslugi() {
   return (
@@ -24,103 +26,102 @@ export default function Uslugi() {
           crossOrigin="anonymous"
         />
       </Head>
-      <Container fluid>
-        <img
-          className={styles.servicesTopImg}
-          src="/images/services-top.png"
-          layout="responsive"
-          style={{ maxWidth: "100%" }}
-          alt="Fire services consulting"
-        />
-      </Container>
-      <Container fluid>
-        <Container className="ml-auto mr-auto">
-          <Row className="text-center mt-3 mb-3">
-            <Col>
-              <h3 className="head-text">Oferowane usługi</h3>
-              <hr />
-            </Col>
-          </Row>
-          <Row>
-            <Col md={6} className="pb-4">
-              <ServicesCard
-                src="/images/icon-flame.png"
-                title="Ochrona przeciwpożarowa"
-              >
-                <Container>
-                  <div className="list-container">
-                    <ul className="list-main">
-                      <li className="list-item">
-                        prowadzimy szkolenia z ochrony przeciwpożarowej
-                      </li>
-                      <li className="list-item">
-                        zapoznajemy z zasadami bezpieczeństwa, oraz postępowania
-                        na wypadek wystąpienia pożaru
-                      </li>
-                      <li className="list-item">
-                        sporządzamy instrukcje bezpieczeństwa pożarowego
-                      </li>
-                      <li className="list-item">
-                        wyznaczamy optymalne drogi ewakuacyjne dla danego
-                        obiektu
-                      </li>
-                      <li className="list-item">
-                        uczymy obsługi podręcznego sprzętu gaśniczego
-                      </li>
-                      <li className="list-item">
-                        organizujemy pokazy gaszenia pożarów dla firm
-                      </li>
-                      <li className="list-item">
-                        doradzamy w rozwiązaniach praktycznych w celu
-                        polepszenia bezpieczeństwa pożarowego
-                      </li>
-                      <li className="list-item">
-                        pomagamy wyznaczyć strefy pożarowe
-                      </li>
-                      <li className="list-item">
-                        wyposażamy obiekty w niezbędny sprzęt gaśniczy i
-                        oznakowanie
-                      </li>
-                    </ul>
-                  </div>
-                </Container>
-              </ServicesCard>
-            </Col>
-            <Col md={6} className="pb-4">
-              <ServicesCard
-                src="/images/icon-service.png"
-                title="Serwis i konserwacja"
-              >
-                <Container>
-                  <div className="list-container">
-                    <ul className="list-main">
-                      <li className="list-item">
-                        wykonujemy przeglądy techniczne podręcznego sprzętu
-                        gaśniczego
-                      </li>
-                      <li className="list-item">
-                        prowadzimy pomiary ciśnienia hydrantów wewnętrznych i
-                        zewnętrznych
-                      </li>
-                      <li className="list-item">
-                        serwisujemy i naprawiamy niesprawny sprzęt gaśniczy
-                      </li>
-                      <li className="list-item">
-                        wymieniamy środek gaśniczy w gaśnicach
-                      </li>
-                      <li className="list-item">
-                        oferujemy stały nadzór nad obiektem i jego wyposażeniem
-                      </li>
-                      <li className="list-item">
-                        dystrybuujemy sprzęt gaśniczy od sprawdonych producentów
-                      </li>
-                    </ul>
-                  </div>
-                </Container>
-              </ServicesCard>
-            </Col>
-          </Row>
-        </Container>
+
+      <TopImage
+        src="/images/services.jpg"
+        alt="Fire extingushing practice"
+        title="Usługi"
+      />
+
+      <Container className="mb-4">
+        <Row>
+          <Col className="mb-4" sm={12} md={6}>
+            <img
+              className={styles.servicesSectionImage}
+              src="/images/services-man.jpg"
+              alt="Happy man pointing right"
+            />
+          </Col>
+          <Col className={styles.servicesSection} sm={12} md={6}>
+            <div className={styles.servicesSectionText}>
+              <h1>Stawiamy na doświadczenie</h1>
+              <p>
+                Od ponad 20 lat zapewniamy firmom stałe wsparcie w zakresie{" "}
+                <strong>BHP i PPOŻ.</strong>. Na bieżąco śledzimy aktualne normy
+                i zmiany w prawie. Sporządzamy dokumenty i świadczymy usługi
+                doradztwa dla największych firm w regionie.
+              </p>
+            </div>
+            <div>
+              <h5>Dołącz do grona zadowolonych klientów</h5>
+              <Link href="/kontakt" passHref>
+                <Button variant="outline-danger">Kontakt</Button>
+              </Link>
+            </div>
+          </Col>
+        </Row>
+
+        <hr />
+        <h2 className="text-center m-4">Nasze możliwości</h2>
+        <Row>
+          <Col md={6} className="pb-4">
+            <ServicesCard
+              src="/images/icon-flame.png"
+              title="Ochrona przeciwpożarowa"
+            >
+              <Container>
+                <ul className={styles.listMain}>
+                  <li>prowadzimy szkolenia z ochrony przeciwpożarowej</li>
+                  <li>
+                    zapoznajemy z zasadami bezpieczeństwa, oraz postępowania na
+                    wypadek wystąpienia pożaru
+                  </li>
+                  <li>sporządzamy instrukcje bezpieczeństwa pożarowego</li>
+                  <li>
+                    wyznaczamy optymalne drogi ewakuacyjne dla danego obiektu
+                  </li>
+                  <li>uczymy obsługi podręcznego sprzętu gaśniczego</li>
+                  <li>organizujemy pokazy gaszenia pożarów dla firm</li>
+                  <li>
+                    doradzamy w rozwiązaniach praktycznych w celu polepszenia
+                    bezpieczeństwa pożarowego
+                  </li>
+                  <li>pomagamy wyznaczyć strefy pożarowe</li>
+                  <li>
+                    wyposażamy obiekty w niezbędny sprzęt gaśniczy i oznakowanie
+                  </li>
+                </ul>
+              </Container>
+            </ServicesCard>
+          </Col>
+          <Col md={6} className="pb-4">
+            <ServicesCard
+              src="/images/icon-service.png"
+              title="Serwis i konserwacja"
+            >
+              <Container>
+                <ul className={styles.listMain}>
+                  <li>
+                    wykonujemy przeglądy techniczne podręcznego sprzętu
+                    gaśniczego
+                  </li>
+                  <li>
+                    prowadzimy pomiary ciśnienia hydrantów wewnętrznych i
+                    zewnętrznych
+                  </li>
+                  <li>serwisujemy i naprawiamy niesprawny sprzęt gaśniczy</li>
+                  <li>wymieniamy środek gaśniczy w gaśnicach</li>
+                  <li>
+                    oferujemy stały nadzór nad obiektem i jego wyposażeniem
+                  </li>
+                  <li>
+                    dystrybuujemy sprzęt gaśniczy od sprawdonych producentów
+                  </li>
+                </ul>
+              </Container>
+            </ServicesCard>
+          </Col>
+        </Row>
       </Container>
     </>
   );

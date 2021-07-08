@@ -3,6 +3,24 @@
     align-items: center;
 }
 
+.contactLogo {
+    width: 64px;
+    height: 64px;
+    filter: grayscale(100%);
+    margin-right: 0.8rem;
+}
+
+.contactIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.contactMapIcon {
+    width: 48px;
+    height: 48px;
+    margin-right: 0.8rem;
+}
+
 .cardInfo p {
     margin-left: 0.7em;
 }

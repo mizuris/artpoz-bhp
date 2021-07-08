@@ -36,8 +36,7 @@ export default function Kontakt() {
               <Card.Body>
                 <div className={styles.contactHeader}>
                   <img
-                    width={64}
-                    height={64}
+                    className={styles.contactLogo}
                     alt="Artpoż logo icon"
                     src="/images/artpoz-icon.png"
                   />
@@ -51,8 +50,7 @@ export default function Kontakt() {
                     <img
                       src="/images/icon-person.png"
                       alt="Person contact icon"
-                      width={iconSize}
-                      height={iconSize}
+                      className={styles.contactIcon}
                     />
                     <h6 className="mb-0 ml-3">Dane firmy</h6>
                   </div>
@@ -70,8 +68,7 @@ export default function Kontakt() {
                     <img
                       src="/images/icon-location.png"
                       alt="Adress location icon"
-                      width={iconSize}
-                      height={iconSize}
+                      className={styles.contactIcon}
                     />
                     <h6 className="mb-0 ml-3">Adres</h6>
                   </div>
@@ -86,8 +83,7 @@ export default function Kontakt() {
                     <img
                       src="/images/icon-tel.png"
                       alt="Contact phone icon"
-                      width={iconSize}
-                      height={iconSize}
+                      className={styles.contactIcon}
                     />
                     <h6 className="mb-0 ml-3">Kontakt telefoniczny</h6>
                   </div>
@@ -104,8 +100,7 @@ export default function Kontakt() {
                     <img
                       src="/images/icon-mail.png"
                       alt="E-mail icon"
-                      width={iconSize}
-                      height={iconSize}
+                      className={styles.contactIcon}
                     />
                     <h6 className="ml-3 mb-0">Adres e-mail</h6>
                   </div>
@@ -121,8 +116,7 @@ export default function Kontakt() {
                 <img
                   src="/images/icon-map.png"
                   alt="Google maps icon"
-                  width={48}
-                  height={48}
+                  className={styles.contactMapIcon}
                 />
                 <span className={styles.cardTextBold}>
                   <h5 className="m-0 p-0 ml-3">TU NAS ZNAJDZIESZ</h5>

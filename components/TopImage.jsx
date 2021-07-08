@@ -5,8 +5,8 @@ import styles from "../styles/Product.module.css";
 
 function TopImage({ src, alt, title }) {
   return (
-    <Container fluid className={`${styles.topImage} p-0 m-0`}>
-      <h1>{title}</h1>
+    <Container fluid className={`${styles.topImage} p-0 shadow`}>
+      <h2>{title}</h2>
       <img src={src} alt={alt} />
     </Container>
   );
