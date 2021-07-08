@@ -131,7 +131,7 @@ export default function Oferta() {
         </Col>
         <Col sm={6} lg={3}>
           <ProductCard
-            src="/images/firefighter-suit-product.jpg"
+            src="/images/road-signs.png"
             alt="Odzież specjalistyczna"
             product="Znaki drogowe"
           />

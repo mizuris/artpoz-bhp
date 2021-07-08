@@ -9,10 +9,10 @@ function ServicesCard(props) {
       <Card.Body>
         <Card.Title className={styles.servicesHeader}>
           <img src={props.src} width={32} height={32} alt="Services icon" />{" "}
-          <span>{props.title}</span>
+          {props.title}
         </Card.Title>
         <hr />
-        <Card.Text>{props.children}</Card.Text>
+        {props.children}
       </Card.Body>
     </Card>
   );

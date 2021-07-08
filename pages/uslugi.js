@@ -11,20 +11,8 @@ export default function Uslugi() {
   return (
     <>
       <Head>
-        <title>Artpoż - hurtownia BHP i ppoż. - usługi</title>
-        <meta name="description" content="Usługi przeciwpożarowe i bhp" />
-        <meta name="robots" content="index, follow" />
-        <meta
-          name="keywords"
-          content="bhp, ppoż, żnin, odzież robocza, gaśnice, hydranty, przeglądy"
-        />
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-          crossOrigin="anonymous"
-        />
+        <title>Usługi / Artpoż - hurtownia BHP i ppoż.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <TopImage

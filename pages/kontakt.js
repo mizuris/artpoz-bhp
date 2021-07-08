@@ -2,31 +2,18 @@
 import React from "react";
 import Head from "next/head";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { WrappedMap } from "../components/Map";
+import Map from "../components/Map";
 import mapStyles from "../styles/Map.module.css";
 import styles from "../styles/Contact.module.css";
 
 export default function Kontakt() {
   const defaultMapElement = <div style={{ height: "100%" }} />;
-  const iconSize = 24;
 
   return (
     <>
       <Head>
-        <title>Artpoż - hurtownia BHP i ppoż. - kontakt</title>
-        <meta name="description" content="Artykuły bhp i ppoż - kontakt" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="robots" content="index, follow" />
-        <meta
-          name="keywords"
-          content="bhp, ppoż, żnin, odzież robocza, gaśnice, hydranty, przeglądy"
-        />
-        <link
-          rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-          crossOrigin="anonymous"
-        />
+        <title>Kontakt / Artpoż - hurtownia BHP i ppoż.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <Container className="mt-5 mb-5">
@@ -124,7 +111,7 @@ export default function Kontakt() {
               </div>
             </div>
             <div id="map-container" className={mapStyles.mapContainer}>
-              <WrappedMap
+              <Map
                 googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_API_KEY}`}
                 mapElement={defaultMapElement}
                 containerElement={defaultMapElement}
